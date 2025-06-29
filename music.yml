@@ -1,12 +1,14 @@
 session_name: music
 windows:
 - focus: 'true'
-  layout: 4922,213x55,0,0{106x55,0,0,9,106x55,107,0,10}
+  layout: 28bc,213x55,0,0{106x55,0,0[106x27,0,0,18,106x27,0,28,20],106x55,107,0,19}
   options: {}
   panes:
+  - shell_command:
+    - aider
   - shell_command:
     - bash
   - shell_command:
     - nvim
-  start_directory: /home/scott/projects/sapf-music
+  start_directory: ~/projects/sapf-music
   window_name: python3
