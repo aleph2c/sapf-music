@@ -4,8 +4,12 @@ Sound as Pure Form.
 
 ## Training Resources
 
-- [sapf training on youtube](https://www.youtube.com/watch?v=FY2WYXOdXoM)
+- [pulusound: first look at sapf](https://www.youtube.com/watch?v=jN5Ij3Cazh8)
+- [pulusound: sequencing in sapf](https://www.youtube.com/watch?v=V2oRfXulHio)
+- [lantertronics: sapf install (on mac)](https://www.youtube.com/watch?v=FY2WYXOdXoM)
+- [lantertronics: language basic and FM Synthesis](https://www.youtube.com/watch?v=FY2WYXOdXoM)
 - [sapf](https://github.com/lfnoise/sapf)
+- [sox sgram replacement](https://www.youtube.com/watch?v=k1TRq5lk0Sg)
 
 ## Building sapf for Linux
 
@@ -64,6 +68,19 @@ export SAPF_EXAMPLES=${SAPF_EXPORT_ROOT}/sapf-examples.txt
 export SAPF_README="$HOME/sapf/README.txt"
 export SAPF_RECORDINGS=${SAPF_EXPORT_ROOT}/recordings
 export SAPF_SPECTROGRAMS=${SAPF_EXPORT_ROOT}/spectrograms
+```
+
+## Spectrograms on Linux
+
+The sgram tooling that comes with sapf iss dependent upon the Apple's Cocoa, and this is native to OSX.
+
+You can use audacity instead.  ``Edit > Preferences > Spectrograms``
+
+Or install sox
+
+```bash
+sudo apt update
+sudo apt install sox libsox-fmt-all
 ```
 
 

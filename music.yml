@@ -9,6 +9,6 @@ windows:
   - shell_command:
     - bash
   - shell_command:
-    - nvim
+    - nvim README.md
   start_directory: ~/projects/sapf-music
   window_name: python3
